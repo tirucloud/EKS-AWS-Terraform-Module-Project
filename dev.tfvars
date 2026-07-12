@@ -53,7 +53,7 @@ addons = [
 
 
 #BASTION
-bastion_image_id      = "ami-02b8269d5e85954ef" # change this to your own ami id ubuntu machine
+bastion_image_id      = "ami-01a00762f46d584a1" # change this to your own ami id ubuntu machine
 bastion_instance_type = "t2.micro"
 bastion_tags          = { Name = "bastion-dev" }
 bastion_key_name      = "mumbai-new" # create your own key pair
