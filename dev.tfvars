@@ -56,7 +56,7 @@ addons = [
 bastion_image_id      = "ami-02b8269d5e85954ef" # change this to your own ami id ubuntu machine
 bastion_instance_type = "t2.micro"
 bastion_tags          = { Name = "bastion-dev" }
-bastion_key_name      = "mumbai-krrish" # create your own key pair
+bastion_key_name      = "mumbai-new" # create your own key pair
 
 tags = {
   Project     = "vpc-alb"
